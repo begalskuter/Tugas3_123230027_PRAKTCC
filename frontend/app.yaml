@@ -1,0 +1,13 @@
+runtime: python39 # Standar untuk static hosting di App Engine
+service: aril-frontend
+
+handlers:
+  # Mengatur file statis (css, js, gambar)
+  - url: /(.*\.(js|css|png|jpg|svg))$
+    static_files: \1
+    upload: .*\.(js|css|png|jpg|svg)$
+
+  # Mengatur halaman utama
+  - url: /.*
+    static_files: index.html
+    upload: index.html

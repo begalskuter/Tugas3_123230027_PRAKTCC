@@ -1,0 +1,8 @@
+steps:
+  # Deploy folder tempat file ini berada ke App Engine
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    args: ['gcloud', 'app', 'deploy', 'app.yaml', '--quiet']
+
+timeout: '1600s'
+options:
+  logging: CLOUD_LOGGING_ONLY
