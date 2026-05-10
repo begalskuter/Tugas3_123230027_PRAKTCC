@@ -17,8 +17,8 @@ POST http://localhost:3000/api/v1/notes
 Content-Type: application/json
 
 {
-  "judul": "Belajar Backend",
-  "isi": "Membuat CRUD Notes dengan Express dan Sequelize"
+  "judul": "Ez",
+  "isi": "Membuat CRUD Notes dengan Express dan Sequelize(MU masuk UCL)"
 }
 
 ###
@@ -27,8 +27,8 @@ PUT http://localhost:3000/api/v1/notes/3
 Content-Type: application/json
 
 {
-  "judul": "HOMESICK",
-  "isi": "GASS KITA PULANG SEKARANG!!!!"
+  "judul": "HomeComing",
+  "isi": "Alhamdulillah MUDAH SELESAI"
 }
 
 ###
